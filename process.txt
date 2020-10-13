@@ -1,0 +1,27 @@
+1. it inside of makefile works. https://stackoverflow.com/questions/12291333/calling-a-shell-script-from-a-makefile
+
+shell: 
+	"C:\Program Files\Git\usr\bin\bash.exe" files.sh
+
+2. `make all` does not work if I include `make shell`. why? I remove `make all`. 
+
+3. creat alias in .bashrc or terminal. perhaps it does not work here.
+
+4. Rscripts can only run r files on my laptop, instead of r scripts.
+
+5. process now;
+   - input folder contains df.
+   - hello.R contains code chuck labels. report.Rmd runs those code chuck labels. do.R renders report.
+   - files.sh deals with folders.
+   - `make do` (don't have run bash before). 
+   - `make clean`.
+
+
+
+
+
+
+
+
+
+

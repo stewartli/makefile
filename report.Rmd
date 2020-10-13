@@ -1,0 +1,37 @@
+---
+title: "report"
+author: "Stewart Li"
+date: "10/13/2020"
+output: pdf_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE)
+
+library(tidyverse)
+
+knitr::read_chunk("./hello.R")
+```
+
+
+Have to include all chuck names in R file in order to work.
+
+
+```{r read_data}
+
+```
+
+
+```{r check_data}
+
+```
+
+
+```{r plot_data}
+
+```
+
+
+
+
